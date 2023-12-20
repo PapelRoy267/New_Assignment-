@@ -9,7 +9,8 @@ public  class InputField extends PageElement {
 
     @Override
     public void performAction() {
-        element.sendKeys("SampleText");
+        element.sendKeys("Admin");
+        element.sendKeys("admin123");
     }
 }
 
