@@ -12,8 +12,8 @@ public class OrangeHRMAutomation {
 
         // Finding elements using Selenium and wrapping them using created classes
         WebElement usernameElement = driver.findElement(By.className("oxd-input"));
-        WebElement passwordElement = driver.findElement(By.id("txtPassword"));
-        WebElement loginButtonElement = driver.findElement(By.id("btnLogin"));
+        WebElement passwordElement = driver.findElement(By.className("oxd-input oxd-input--active"));
+        WebElement loginButtonElement = driver.findElement(By.id("submit"));
 
         InputField usernameInput = new InputField(usernameElement);
         InputField passwordInput = new InputField(passwordElement);
